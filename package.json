@@ -1,0 +1,17 @@
+{
+  "name": "sn-msa-front-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/onekeykr/sn-msa-front-monorepo.git",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/config/*",
+    "packages/shared/*"
+  ],
+  "engines": {
+    "node": ">=16.20.0"
+  },
+  "packageManager": "yarn@1.22.19"
+}
