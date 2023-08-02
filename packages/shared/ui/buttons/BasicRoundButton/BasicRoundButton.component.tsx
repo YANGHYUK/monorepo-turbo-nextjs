@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
-import { colors } from "../../styles/colors";
 import React, { CSSProperties } from "react";
+
+import { colors } from "@/styles/colors";
 
 const BasicRoundButtonContainer = styled.div<{ disabled?: boolean }>`
   display: inline-flex;

@@ -1,7 +1,6 @@
 {
-  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "target": "es5",
+    "target": "ESNext",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -19,10 +18,10 @@
       {
         "name": "next"
       }
-    ],
-    "paths": {
-      "@/*": ["./src/*", "../../packages/shared/ui/*"]
-    }
+    ]
+    // "paths": {
+    //   "@/*": ["./*"]
+    // }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
