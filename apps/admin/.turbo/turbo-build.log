@@ -1,0 +1,31 @@
+$ next build
+- info Creating an optimized production build...
+- info Compiled successfully
+- info Linting and checking validity of types...
+- info Collecting page data...
+- info Generating static pages (0/4)
+- info Generating static pages (1/4)
+- info Generating static pages (2/4)
+- info Generating static pages (3/4)
+- info Generating static pages (4/4)
+- info Finalizing page optimization...
+
+Route (app)                                Size     First Load JS
+┌ ○ /                                      15.6 kB        93.8 kB
+└ ○ /favicon.ico                           0 B                0 B
++ First Load JS shared by all              78.1 kB
+  ├ chunks/1dd3208c-85e8ae22ef212ea9.js    50.5 kB
+  ├ chunks/575-8dd51d71462624d1.js         25.7 kB
+  ├ chunks/main-app-b653bd760623790b.js    216 B
+  └ chunks/webpack-e3832e778564003b.js     1.71 kB
+
+Route (pages)                              Size     First Load JS
+─ ○ /404                                   178 B          75.7 kB
++ First Load JS shared by all              75.5 kB
+  ├ chunks/framework-0857c1c24dbfb1d6.js   45 kB
+  ├ chunks/main-07317860eccc831a.js        28.6 kB
+  ├ chunks/pages/_app-12a7bb3ca92362ee.js  195 B
+  └ chunks/webpack-e3832e778564003b.js     1.71 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
