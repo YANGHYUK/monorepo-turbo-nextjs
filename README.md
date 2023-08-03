@@ -7,8 +7,8 @@
 1. app (nextjs 기반 실서비스 )
 
 - admin
-- accountant
-- logistics
+- XX
+- @@
 
 2. packages (공용 ui 및 로직 관리)
 
